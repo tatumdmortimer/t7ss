@@ -1,0 +1,16 @@
+universe = vanilla
+executable = getNCBIGenome.py
+arguments = "$(accession) tmortimer@wisc.edu"
+
+output = $(accession).out
+error = download.err
+log = download.log
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
+
+queue
