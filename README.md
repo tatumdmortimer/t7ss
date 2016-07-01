@@ -27,6 +27,9 @@ Scripts and data associated with T7SS evolution paper
 
 #####T7SS_accessions.tsv
 
+#####shared_plasmid_genes.txt
+Comparison of number of shared genes between ESX containing plasmids and whetheror not they are in the same group (e.g. ESX-1P, ESX-2P, etc.)
+
 ## orthomcl
 
 #####orthomcl_groups.txt
