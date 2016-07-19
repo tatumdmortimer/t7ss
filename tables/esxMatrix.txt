@@ -17,7 +17,7 @@ Corynebacterium_glutamicum_ATCC13032	yes	yes	no	no	no	no	no	no
 Nocardia_cyriacigeorgica_GUH2	yes	yes	no	no	no	no	yes	yes
 Nocardia_farcinica_IFM	yes	yes	no	no	no	no	yes	no
 Mycobacterium_gilvum_PYRGCK	yes	yes	yes	yes	no	no	no	no
-Mycobacterium_avium_paratuberculosis	yes	yes	yes	yes	no	yes	no	no
+Mycobacterium_avium_paratuberculosis	yes	yes	yes	no	yes	yes	no	no
 Rhodococcus_opacus_B4	yes	yes	no	no	no	no	no	no
 Mycobacterium_bovis_AF212297	yes	yes	yes	yes	yes	yes	no	no
 Mycobacterium_pinipeddii_SRR1239338	yes	yes	yes	yes	yes	yes	no	no
@@ -30,7 +30,7 @@ Nocardia_brasiliensis_ATCC700358	yes	yes	no	no	no	no	yes	yes
 Mycobacterium_ulcerans_Agy99	yes	yes	yes	no	no	yes	no	no
 Saccharomonospora_viridis	yes	yes	no	no	no	no	no	no
 Corynebacterium_jeikeium_K411	yes	yes	no	no	no	no	no	no
-Mycobacterium_avium_104	yes	yes	yes	yes	no	yes	no	no
+Mycobacterium_avium_104	yes	yes	yes	no	yes	yes	no	no
 Mycobacterium_haemophilum	yes	yes	yes	yes	yes	yes	no	no
 Rhodococcus_equi_103S	yes	yes	no	no	no	no	no	no
 Mycobacterium_goodii_X7B	yes	yes	yes	yes	no	no	yes	no
@@ -50,6 +50,7 @@ Gardnerella_vaginalis_409-05	yes	no	no	no	no	no	no	no
 Ilumatobacter_coccineus_YM16-304	no	no	no	no	no	no	no	no
 Intrasporangium_calvum_DSM	yes	no	no	no	no	no	no	no
 Modestobacter_marinus_BC501	yes	no	no	no	no	no	no	no
-Mycobacterium_smegmatis_JS623	yes	no	no	no	no	no	no	no
+Mycobacterium_smegmatis_JS623	no	no	no	no	no	no	no	no
 Olsenella_uli_DSM	yes	no	no	no	no	no	no	no
 Streptomyces_albus_J1074	yes	no	no	no	no	no	no	no
+Mycobacterium_sp._051390	yes	yes	yes	no	yes	yes	no	no	
