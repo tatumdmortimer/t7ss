@@ -4,7 +4,7 @@ Mycobacterium_smegmatis_MC2	yes	yes	yes	yes	no	no	no	no
 Mycobacterium_orygis_ERR015582	yes	yes	yes	yes	yes	yes	no	no
 Mycobacterium_chelonae_genome	yes	yes	yes	no	no	no	no	no
 Verrucosispora_maris_AB18032	yes	yes	no	no	no	no	no	no
-Mycobacterium_indicus_pranii	yes	yes	yes	no	no	yes	no	no
+Mycobacterium_indicus_pranii	yes	yes	yes	no	yes	yes	no	no
 Mycobacterium_canettii_CIPT	yes	yes	yes	yes	yes	yes	no	no
 Mycobacterium_vanbaalenii_PYR1	yes	yes	yes	yes	no	no	no	no
 Mycobacterium_intracellulare_ATCC13950	yes	yes	yes	no	yes	yes	no	no
