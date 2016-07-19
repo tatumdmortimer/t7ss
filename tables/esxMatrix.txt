@@ -1,57 +1,55 @@
-ftsk_wxg100	t7ss	esx4-bis	esx4	esx3	esx1	esx2	esx5	esxP	esxN
-Corynebacterium_efficiens_YS314	yes	yes	yes	no	no	no	no	no	no	no
-Mycobacterium_smegmatis_MC2	yes	yes	no	yes	yes	yes	no	no	no	no
-Mycobacterium_orygis_ERR015582	yes	yes	no	yes	yes	yes	yes	yes	no	no
-Mycobacterium_chelonae_genome	yes	yes	no	yes	yes	no	no	no	no	no
-Verrucosispora_maris_AB18032	yes	yes	yes	no	no	no	no	no	no	no
-Mycobacterium_indicus_pranii	yes	yes	no	yes	yes	no	yes	yes	no	no
-Mycobacterium_canettii_CIPT	yes	yes	no	yes	yes	yes	yes	yes	no	no
-Mycobacterium_vanbaalenii_PYR1	yes	yes	no	yes	yes	yes	no	no	no	no
-Mycobacterium_intracellulare_ATCC13950	yes	yes	no	yes	yes	no	yes	yes	no	no
-Corynebacterium_pseudotuberculosis_106A	yes	yes	yes	no	no	no	no	no	no	no
-Mycobacterium_kansasii_ATCC12478	yes	yes	no	yes	yes	yes	yes	yes	yes	no
-Mycobacterium_marinum_M	yes	yes	no	yes	yes	yes	no	yes	yes	no
-Mycobacterium_rhodesiae_NBB3	yes	yes	no	yes	yes	yes	no	no	no	no
-Mycobacterium_caprae_SRR650219	yes	yes	no	yes	yes	yes	yes	yes	no	no
-Corynebacterium_glutamicum_ATCC13032	yes	yes	yes	no	no	no	no	no	no	no
-Nocardia_cyriacigeorgica_GUH2	yes	yes	no	yes	no	no	no	no	no	yes
-Nocardia_farcinica_IFM	yes	yes	no	yes	no	no	no	no	no	no
-Mycobacterium_gilvum_PYRGCK	yes	yes	no	yes	yes	yes	no	no	yes	no
-Mycobacterium_avium_paratuberculosis	yes	yes	no	yes	yes	no	yes	yes	no	no
-Rhodococcus_opacus_B4	yes	yes	yes	no	no	no	no	no	no	no
-Mycobacterium_bovis_AF212297	yes	yes	no	yes	yes	yes	yes	yes	no	no
-Mycobacterium_pinipeddii_SRR1239338	yes	yes	no	yes	yes	yes	yes	yes	no	no
-Mycobacterium_sp._JLS	yes	yes	no	yes	yes	yes	no	no	no	no
-Mycobacterium_tuberculosis_H37Rv	yes	yes	no	yes	yes	yes	yes	yes	no	no
-Mycobacterium_abscessus_chromosome	yes	yes	no	yes	yes	no	no	no	no	no
-Rhodococcus_erythropolis_PR4	yes	yes	yes	no	no	no	no	no	no	no
-Mycobacterium_sp._JLS_00365	yes	yes	no	no	yes	no	no	no	no	no
-Mycobacterium_neoaurum_VKM	yes	yes	no	yes	yes	yes	no	no	no	no
-Nocardia_brasiliensis_ATCC700358	yes	yes	yes	yes	no	yes	no	no	no	yes
-Mycobacterium_ulcerans_Agy99	yes	yes	no	yes	yes	no	no	yes	no	no
-Saccharomonospora_viridis	yes	yes	yes	no	no	no	no	no	no	no
-Corynebacterium_jeikeium_K411	yes	yes	yes	no	no	no	no	no	no	no
-Mycobacterium_sp._051390	yes	yes	no	yes	yes	no	yes	yes	yes	no
-Mycobacterium_avium_104	yes	yes	no	yes	yes	no	yes	yes	no	no
-Mycobacterium_haemophilum	yes	yes	no	yes	yes	yes	yes	yes	no	no
-Rhodococcus_equi_103S	yes	yes	yes	no	no	no	no	no	no	no
-Mycobacterium_goodii_X7B	yes	yes	yes	yes	yes	yes	no	no	no	no
-Mycobacterium_chubuense_NBB4	yes	yes	no	yes	no	yes	no	no	yes	no
-Mycobacterium_sinense_JDM601	yes	yes	no	yes	yes	no	yes	yes	no	no
-Mycobacterium_africanum_GM041182	yes	yes	no	yes	yes	yes	yes	yes	no	no
-Mycobacterium_sp._KMS	yes	yes	no	yes	yes	yes	no	no	yes	no
-Mycobacterium_sp._MCS	yes	yes	no	yes	yes	yes	no	no	no	no
-Mycobacterium_liflandii_128FXT	yes	yes	no	yes	yes	yes	no	yes	no	no
-Mycobacterium_leprae_Br4923	yes	yes	no	no	yes	yes	no	yes	no	no
-Mycobacterium_sp._MOTT36Y	yes	yes	no	yes	yes	no	yes	yes	no	no
-Rhodococcus_pyridinivorans_SB3094	yes	yes	yes	no	no	no	no	no	no	no
-Acidothermus_cellulolyticus_11B	yes	no	no	no	no	no	no	no	no	no
-Bifidobacterium_thermophilum_RBL67	yes	no	no	no	no	no	no	no	no	no
-Conexibacter_woesei_DSM	no	no	no	no	no	no	no	no	no	no
-Gardnerella_vaginalis_409-05	yes	no	no	no	no	no	no	no	no	no
-Ilumatobacter_coccineus_YM16-304	no	no	no	no	no	no	no	no	no	no
-Intrasporangium_calvum_DSM	yes	no	no	no	no	no	no	no	no	no
-Modestobacter_marinus_BC501	yes	no	no	no	no	no	no	no	no	no
-Mycobacterium_smegmatis_JS623	yes	yes	no	no	no	no	no	no	yes	no
-Olsenella_uli_DSM	yes	no	no	no	no	no	no	no	no	no
-Streptomyces_albus_J1074	yes	no	no	no	no	no	no	no	no	no
+ftsk_wxg100	esx4	esx3	esx1	esx2	esx5	esx4-bis	esxN
+Corynebacterium_efficiens_YS314	yes	yes	no	no	no	no	no	no
+Mycobacterium_smegmatis_MC2	yes	yes	yes	yes	no	no	no	no
+Mycobacterium_orygis_ERR015582	yes	yes	yes	yes	yes	yes	no	no
+Mycobacterium_chelonae_genome	yes	yes	yes	no	no	no	no	no
+Verrucosispora_maris_AB18032	yes	yes	no	no	no	no	no	no
+Mycobacterium_indicus_pranii	yes	yes	yes	no	no	yes	no	no
+Mycobacterium_canettii_CIPT	yes	yes	yes	yes	yes	yes	no	no
+Mycobacterium_vanbaalenii_PYR1	yes	yes	yes	yes	no	no	no	no
+Mycobacterium_intracellulare_ATCC13950	yes	yes	yes	no	yes	yes	no	no
+Corynebacterium_pseudotuberculosis_106A	yes	yes	no	no	no	no	no	no
+Mycobacterium_kansasii_ATCC12478	yes	yes	yes	yes	yes	yes	no	no
+Mycobacterium_marinum_M	yes	yes	yes	yes	no	yes	no	no
+Mycobacterium_rhodesiae_NBB3	yes	yes	yes	yes	no	no	no	no
+Mycobacterium_caprae_SRR650219	yes	yes	yes	yes	yes	yes	no	no
+Corynebacterium_glutamicum_ATCC13032	yes	yes	no	no	no	no	no	no
+Nocardia_cyriacigeorgica_GUH2	yes	yes	no	no	no	no	yes	yes
+Nocardia_farcinica_IFM	yes	yes	no	no	no	no	yes	no
+Mycobacterium_gilvum_PYRGCK	yes	yes	yes	yes	no	no	no	no
+Mycobacterium_avium_paratuberculosis	yes	yes	yes	yes	no	yes	no	no
+Rhodococcus_opacus_B4	yes	yes	no	no	no	no	no	no
+Mycobacterium_bovis_AF212297	yes	yes	yes	yes	yes	yes	no	no
+Mycobacterium_pinipeddii_SRR1239338	yes	yes	yes	yes	yes	yes	no	no
+Mycobacterium_sp._JLS	yes	yes	yes	yes	no	no	no	no
+Mycobacterium_tuberculosis_H37Rv	yes	yes	yes	yes	yes	yes	no	no
+Mycobacterium_abscessus_chromosome	yes	yes	yes	no	no	no	no	no
+Rhodococcus_erythropolis_PR4	yes	yes	no	no	no	no	no	no
+Mycobacterium_neoaurum_VKM	yes	yes	yes	yes	no	no	no	no
+Nocardia_brasiliensis_ATCC700358	yes	yes	no	no	no	no	yes	yes
+Mycobacterium_ulcerans_Agy99	yes	yes	yes	no	no	yes	no	no
+Saccharomonospora_viridis	yes	yes	no	no	no	no	no	no
+Corynebacterium_jeikeium_K411	yes	yes	no	no	no	no	no	no
+Mycobacterium_avium_104	yes	yes	yes	yes	no	yes	no	no
+Mycobacterium_haemophilum	yes	yes	yes	yes	yes	yes	no	no
+Rhodococcus_equi_103S	yes	yes	no	no	no	no	no	no
+Mycobacterium_goodii_X7B	yes	yes	yes	yes	no	no	yes	no
+Mycobacterium_chubuense_NBB4	yes	yes	no	yes	no	no	no	no
+Mycobacterium_sinense_JDM601	yes	yes	yes	no	yes	yes	no	no
+Mycobacterium_africanum_GM041182	yes	yes	yes	yes	yes	yes	no	no
+Mycobacterium_sp._KMS	yes	yes	yes	yes	no	no	no	no
+Mycobacterium_sp._MCS	yes	yes	yes	yes	no	no	no	no
+Mycobacterium_liflandii_128FXT	yes	yes	yes	yes	no	yes	no	no
+Mycobacterium_leprae_Br4923	yes	no	yes	yes	no	yes	no	no
+Mycobacterium_sp._MOTT36Y	yes	yes	yes	no	yes	yes	no	no
+Rhodococcus_pyridinivorans_SB3094	yes	yes	no	no	no	no	no	no
+Acidothermus_cellulolyticus_11B	yes	no	no	no	no	no	no	no
+Bifidobacterium_thermophilum_RBL67	yes	no	no	no	no	no	no	no
+Conexibacter_woesei_DSM	no	no	no	no	no	no	no	no
+Gardnerella_vaginalis_409-05	yes	no	no	no	no	no	no	no
+Ilumatobacter_coccineus_YM16-304	no	no	no	no	no	no	no	no
+Intrasporangium_calvum_DSM	yes	no	no	no	no	no	no	no
+Modestobacter_marinus_BC501	yes	no	no	no	no	no	no	no
+Mycobacterium_smegmatis_JS623	yes	no	no	no	no	no	no	no
+Olsenella_uli_DSM	yes	no	no	no	no	no	no	no
+Streptomyces_albus_J1074	yes	no	no	no	no	no	no	no
