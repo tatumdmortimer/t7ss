@@ -46,8 +46,8 @@ Rhodococcus_pyridinivorans_SB3094	yes	yes	no	no	no	no	no	no
 Acidothermus_cellulolyticus_11B	yes	no	no	no	no	no	no	no
 Bifidobacterium_thermophilum_RBL67	yes	no	no	no	no	no	no	no
 Conexibacter_woesei_DSM	no	no	no	no	no	no	no	no
-Gardnerella_vaginalis_409-05	yes	no	no	no	no	no	no	no
-Ilumatobacter_coccineus_YM16-304	no	no	no	no	no	no	no	no
+Gardnerella_vaginalis_40905	yes	no	no	no	no	no	no	no
+Ilumatobacter_coccineus_YM16304	no	no	no	no	no	no	no	no
 Intrasporangium_calvum_DSM	yes	no	no	no	no	no	no	no
 Modestobacter_marinus_BC501	yes	no	no	no	no	no	no	no
 Mycobacterium_smegmatis_JS623	no	no	no	no	no	no	no	no
