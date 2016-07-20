@@ -54,8 +54,14 @@ Orthologous groups containing ESX genes
 
 ## scripts
 
+###checkPlasmidESX.py
+Checks that all ESX genes identified on a plasmid are on the same component in the plasmidSPAdes assembly
+
+Usage: checkPlasmidESX.py [-h] group plasmid
+
 ####concatenateEccC1.py
 Concatenates fasta format sequences of eccCa1 and eccCb1
+
 Usage: concatenateEccC1.py [-h] eccCa1 eccCb1
 
 ####esxFASTAs_oneLocus.py
@@ -90,6 +96,16 @@ Creates ESX-4 tree with bootstrap values colored according to support.
 Runs prokka v 1.11 and compresses the output directory
 
 Usage: run\_prokka.sh genus species strain genus\_species\_strain.fasta
+
+####separateComponents.py
+Uses orthomcl output to separate genes on the same component as ESX locus from other components and outputs new fasta files
+
+Usage: separateComponents.py [-h] group plasmid
+
+####sharedGeneContent.py
+Calculates the number of shared genes between all pairs of plasmids in OrthoMCL output.
+
+Usage: sharedGeneContent.py [-h] group categories
 
 ## submit_files
 Submit files and DAGs to run scripts on HTCondor
