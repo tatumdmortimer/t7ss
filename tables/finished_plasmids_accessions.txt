@@ -1,0 +1,12 @@
+NC_021279.1	Mycobacterium abscessus bolletii plasmid2
+NC_018022.1	Mycobacterium chubuense NBB4 pMYCCH01
+NC_018023.1	Mycobacterium chubuense NBB4 pMYCCH02
+CP000657.1	Mycobacterium gilvum PYR-GCK pMFLV01
+CP006836.1	Mycobacterium kansasii ATCC12478 pMK12478
+HG917973.1	Mycobacterium marinum E11 pRAW
+CP003079.1	Mycobacterium smegmatis JS623 pMYCSM01
+CP003080.1	Mycobacterium smegmatis JS623 pMYCSM02
+CP003081.1	Mycobacterium smegmatis JS623 pMYCSM03
+CP000519.1	Mycobacterium sp KMS pMKMS01
+CP000520.1	Mycobacterium sp KMS pMKMS02
+NC_020275.1	Mycobacterium yongonense 05-1390 pMyong1
