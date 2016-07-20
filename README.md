@@ -24,6 +24,8 @@ Concatenated alignment of nucleotide sequences of ESX genes for all ESX loci
 Concatenated alignment of nucleotide sequences of ESX genes for plasmid-borne ESX loci
 ####tcpC\_align\_trim.fasta
 Alignment of tcpC from plasmids
+####ulcerans\_plasmid\_core\_alignment.fasta
+Concatenated alignment of amino acid sequences of genes common to all _M. ulcerans_ plasmids.
 ####virB\_align\_trim.fasta
 Alignment of virB from plasmids
 
@@ -163,9 +165,10 @@ Core genome phylogeny
 ESX-4 phylogeny
 ####RAxML_bipartitionsBranchLabels.esx_combine_guidance
 ESX phylogeny from finished genomes trimmed with Guidance
-#####RAxML_bipartitionsBranchLabels.esx_combine_trimmed
+####RAxML_bipartitionsBranchLabels.esx_combine_trimmed
 ESX phylogeney from finished genomes trimmed with Gblocks
-
+####RAxML_bipartitionsBranchLabels.ulceransCore_combine
+Phylogeny of _M. ulcerans_ plasmids
 
 
 
