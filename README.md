@@ -45,14 +45,17 @@ Contains input and output of HyPhy analysis of untrimmed alignment
 
 ## orthomcl
 
-#####orthomcl_groups.txt
+####orthomcl_groups.txt
 All orthologous groups output by OrthoMCL
 
-#####orthomcl\_core\_groups.txt
+####orthomcl\_core\_groups.txt
 Orthologous groups corresponding to the core genome
 
-#####orthomcl\_esx\_groups.txt
+####orthomcl\_esx\_groups.txt
 Orthologous groups containing ESX genes
+
+####orthomcl\_plasmids\_groups.txt
+Orthologous groups in plasmids
 
 ## scripts
 
