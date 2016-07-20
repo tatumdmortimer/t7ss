@@ -92,6 +92,7 @@ Runs prokka v 1.11 and compresses the output directory
 Usage: run\_prokka.sh genus species strain genus\_species\_strain.fasta
 
 ## submit_files
+Submit files and DAGs to run scripts on HTCondor
 
 #####get_genomes.dag
 
@@ -112,6 +113,9 @@ Same as above, but only plasmid-borne loci
 
 ####esxMatrix.txt
 Presence/absence matrix of ESX loci in genomes in the core genome phylogeny
+
+####finished\_plasmids\_accessions.txt
+Accession numbers of finished plasmids
 
 ####genomeNames.txt
 Table to match short names by OrthoMCL to full names
