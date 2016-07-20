@@ -5,7 +5,7 @@ import os
 from Bio import SeqIO
 
 ################################################################################
-# This script creates fasta files of unaligned orthologs and paralogs from   
+# This script creates fasta files of unaligned orthologs and paralogs from
 # input files describing gene names and .faa and .fna files of annotated genomes
 ################################################################################
 
@@ -39,16 +39,16 @@ def get_args():
     parser = argparse.ArgumentParser(description='Create fasta of esx genes')
     parser.add_argument("esx", help="ESX genes file", action=FullPaths,
         type=is_file)
-    parser.add_argument("nucleotide", 
+    parser.add_argument("nucleotide",
         help="Directory with .fasta files of gene sequences in nucleotides",
         action=FullPaths, type=is_dir)
-    parser.add_argument("protein", 
+    parser.add_argument("protein",
         help="Directory with .fasta files of protein sequences in amino acids",
         action=FullPaths, type=is_dir)
     return parser.parse_args()
 
 def concatenate_sequences(seq1, seq2, newName):
-    seq1.seq = seq1.seq + seq2.seq
+    seq1.seq = seq1.seq[:-3] + seq2.seq
     seq1.id = newName
     return seq1
 
@@ -58,11 +58,14 @@ def make_unaligned_fasta(dnaDirectory, protDirectory, geneList, geneName):
     species = ["_".join(x.split("_")[:-1]) for x in geneList]
     dnaSeqDict = {}
     protSeqDict = {}
-    for s in species:
-        with open(dnaDirectory + '/' + s + ".ffn", "r") as handle:
+    dna_files = listdir_fullpath(dnaDirectory)
+    prot_files = listdir_fullpath(protDirectory)
+    for d_f in dna_files:
+        with open(d_f, "r") as handle:
             for record in SeqIO.parse(handle, 'fasta'):
                 dnaSeqDict[record.id] = record
-        with open(protDirectory + '/' + s + ".faa", "r") as handle:
+    for p_f in prot_files:
+        with open(p_f, "r") as handle:
             for record in SeqIO.parse(handle, 'fasta'):
                 protSeqDict[record.id] = record
     dna_out = open(geneName + '.ffn', 'w')
