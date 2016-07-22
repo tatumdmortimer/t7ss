@@ -24,6 +24,8 @@ Concatenated alignment of nucleotide sequences of ESX genes for all ESX loci
 Concatenated alignment of nucleotide sequences of ESX genes for plasmid-borne ESX loci
 ####tcpC\_align\_trim.fasta
 Alignment of tcpC from plasmids
+####ulcerans\_plasmid\_core\_alignment.fasta
+Concatenated alignment of amino acid sequences of genes common to all _M. ulcerans_ plasmids.
 ####virB\_align\_trim.fasta
 Alignment of virB from plasmids
 
@@ -43,19 +45,28 @@ Contains input and output of HyPhy analysis of untrimmed alignment
 
 ## orthomcl
 
-#####orthomcl_groups.txt
+####orthomcl_groups.txt
 All orthologous groups output by OrthoMCL
 
-#####orthomcl\_core\_groups.txt
+####orthomcl\_core\_groups.txt
 Orthologous groups corresponding to the core genome
 
-#####orthomcl\_esx\_groups.txt
+####orthomcl\_esx\_groups.txt
 Orthologous groups containing ESX genes
+
+####orthomcl\_plasmids\_groups.txt
+Orthologous groups in plasmids
 
 ## scripts
 
+###checkPlasmidESX.py
+Checks that all ESX genes identified on a plasmid are on the same component in the plasmidSPAdes assembly
+
+Usage: checkPlasmidESX.py [-h] group plasmid
+
 ####concatenateEccC1.py
 Concatenates fasta format sequences of eccCa1 and eccCb1
+
 Usage: concatenateEccC1.py [-h] eccCa1 eccCb1
 
 ####esxFASTAs_oneLocus.py
@@ -91,7 +102,18 @@ Runs prokka v 1.11 and compresses the output directory
 
 Usage: run\_prokka.sh genus species strain genus\_species\_strain.fasta
 
+####separateComponents.py
+Uses orthomcl output to separate genes on the same component as ESX locus from other components and outputs new fasta files
+
+Usage: separateComponents.py [-h] group plasmid
+
+####sharedGeneContent.py
+Calculates the number of shared genes between all pairs of plasmids in OrthoMCL output.
+
+Usage: sharedGeneContent.py [-h] group categories
+
 ## submit_files
+Submit files and DAGs to run scripts on HTCondor
 
 #####get_genomes.dag
 
@@ -112,6 +134,9 @@ Same as above, but only plasmid-borne loci
 
 ####esxMatrix.txt
 Presence/absence matrix of ESX loci in genomes in the core genome phylogeny
+
+####finished\_plasmids\_accessions.txt
+Accession numbers of finished plasmids
 
 ####genomeNames.txt
 Table to match short names by OrthoMCL to full names
@@ -143,9 +168,10 @@ Core genome phylogeny
 ESX-4 phylogeny
 ####RAxML_bipartitionsBranchLabels.esx_combine_guidance
 ESX phylogeny from finished genomes trimmed with Guidance
-#####RAxML_bipartitionsBranchLabels.esx_combine_trimmed
+####RAxML_bipartitionsBranchLabels.esx_combine_trimmed
 ESX phylogeney from finished genomes trimmed with Gblocks
-
+####RAxML_bipartitionsBranchLabels.ulceransCore_combine
+Phylogeny of _M. ulcerans_ plasmids
 
 
 
