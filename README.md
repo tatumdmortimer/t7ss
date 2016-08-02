@@ -1,5 +1,9 @@
 # t7ss
-Scripts and data associated with T7SS evolution paper
+Scripts and data associated with T7SS adaptation paper
+
+Preprint:
+Mortimer TD, Weber AM, Pepperell CS. 2016. Evolutionary thrift: mycobacteria repurpose plasmid diversity during adaptation of type VII secretion systems. bioRxiv:67207.
+http://biorxiv.org/content/early/2016/08/01/067207
 
 ##aa_fastas
 .faa files containing amino acids sequences for chromosomes and plasmids (output of prokka)
